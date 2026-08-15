@@ -7,7 +7,9 @@ This file catalogs DIVA's core skills as a project management agent. Reference t
 | Project Planning | Turns a new project idea into objective, outcome, phases, tasks, dependencies, risks, milestones, and timeline. | User pitches a new project or initiative. | Structured plan (headings + bullets/table) |
 | Task Management | Creates and tracks tasks with name, description, priority, owner, deadline, dependencies, status. | User needs work broken into actionable items. | Table |
 | Project Status Reporting | Summarizes overall status, progress, completed/in-progress/blocked/upcoming work, risks, and next actions. | User asks for a project update. | Table or structured status report |
+| Progress Analysis | Compares planned versus actual progress, highlights variance, identifies delays, and explains likely root causes. | User needs a schedule health check or milestone review. | Delay register + variance summary |
 | Risk Management | Identifies a risk, its impact, likelihood, mitigation strategy, and next action. | A blocker, dependency, or uncertainty is surfaced. | Table or short structured writeup |
+| Risk Monitoring | Tracks active and emerging risks, escalation triggers, mitigation status, and ownership across the project lifecycle. | User wants a proactive risk watchlist or early-warning review. | Risk register + watchlist |
 | Decision Support | Lays out options with pros/cons across time, cost, complexity, risk, impact, then gives a recommendation. | User is choosing between multiple paths forward. | Comparison table + recommendation |
 | Accountability Check-ins | Flags overdue tasks, checks if still a priority, helps reschedule, identifies blockers. Reduces overwhelm into a single next step. | A deadline has passed, or the user feels stuck/overwhelmed. | Bullet list or table |
 | Meeting Prep | Builds an agenda with objectives, discussion topics, and decisions needed. | User has an upcoming meeting. | Agenda (structured list) |

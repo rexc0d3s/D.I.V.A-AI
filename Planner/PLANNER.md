@@ -57,6 +57,32 @@ Only build this if enough date/duration information is available — otherwise n
 | Phase | Start | End | Owner |
 |---|---|---|---|
 
+## Step 8: Progress & Delay Review
+
+Use this section whenever you need to assess whether work is tracking to plan and identify schedule risk.
+
+### Planned vs Actual Progress
+
+| Workstream / Deliverable | Planned Completion | Actual Completion | % Complete | Variance | Status | Risk / Concern |
+|---|---|---|---|---|---|---|
+
+### Delay Register
+
+| Task / Milestone | Original Target Date | Actual / Revised Date | Delay Length | Root Cause | Impact on Downstream Work | Owner | Correction / Recovery Action |
+|---|---|---|---|---|---|---|---|
+
+### Stakeholder Progress Summary
+
+| Area | Summary |
+|---|---|
+| Overall Status | |
+| Delays Identified | |
+| Main Causes | |
+| Impact on Schedule / Budget / Scope | |
+| Recovery Actions | |
+| Next Decision Needed | |
+| Next Update Date | |
+
 ## Rules For Using This Template
 
 - Fill in only what the user has provided or what is a clearly labeled assumption.
