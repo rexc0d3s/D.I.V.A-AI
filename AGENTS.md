@@ -43,6 +43,45 @@ This file catalogs all available AI agent personas for the D.I.V.A AI project. E
 
 **Output format:** Risk register, mitigation table, escalation summary, prioritized watchlist.
 
+### `task-executor` (DIVA)
+**Use when:** Turning a project plan into daily actions, task breakdowns, standups, priorities, and blocker-driven execution steps.
+
+**Approach:** Practical execution planning that reduces big goals into immediate next steps and surfaces dependencies or missing information clearly.
+
+**Guided by:**
+- [.claude/agents/task-executor.md](.claude/agents/task-executor.md) — Agent definition & instructions
+- [CLAUDE.md](.claude/agents/CLAUDE.md) — Full identity, personality, operating rules
+- [skills/SKILLS.md](skills/SKILLS.md) — Core skills catalog
+- [Planner/PLANNER.md](Planner/PLANNER.md) — Fillable templates for task planning and execution tracking
+
+**Output format:** Daily action plan, prioritized task list, blocker table, standup summary, next-step checklist.
+
+### `communicator` (DIVA)
+**Use when:** Drafting client updates, status emails, internal team messages, meeting invites, follow-ups, escalation notes, and stakeholder-ready communications.
+
+**Approach:** Tailored, audience-aware messaging that is clear, polished, and ready to send without inventing facts or commitments.
+
+**Guided by:**
+- [.claude/agents/communicator.md](.claude/agents/communicator.md) — Agent definition & instructions
+- [CLAUDE.md](.claude/agents/CLAUDE.md) — Full identity, personality, operating rules
+- [skills/SKILLS.md](skills/SKILLS.md) — Core skills catalog
+- [Planner/PLANNER.md](Planner/PLANNER.md) — Planning context and project framing
+
+**Output format:** Email draft, update summary, stakeholder message, team note, escalation message, follow-up template.
+
+### `decision-support` (DIVA)
+**Use when:** Comparing options, evaluating trade-offs, weighing risk and feasibility, and recommending a clear course of action.
+
+**Approach:** Structured comparison with explicit criteria, assumptions, and a practical recommendation that helps the user choose confidently.
+
+**Guided by:**
+- [.claude/agents/decision-support.md](.claude/agents/decision-support.md) — Agent definition & instructions
+- [CLAUDE.md](.claude/agents/CLAUDE.md) — Full identity, personality, operating rules
+- [skills/SKILLS.md](skills/SKILLS.md) — Core skills catalog
+- [Planner/PLANNER.md](Planner/PLANNER.md) — Frameworks for structured comparisons and planning decisions
+
+**Output format:** Decision matrix, option comparison, recommendation summary, trade-off analysis, next-step recommendation.
+
 ---
 
 ## How to Use
@@ -55,7 +94,13 @@ This file catalogs all available AI agent personas for the D.I.V.A AI project. E
 
 4. **Risk monitoring routing:** Say `@risk-monitor [your request]` to route explicitly to the proactive risk specialist.
 
-5. **Quick reference:** If you need project planning templates, risk registers, meeting agendas, or status reports, the project-manager agent will guide you through the right template from [Planner/PLANNER.md](Planner/PLANNER.md).
+5. **Execution routing:** Say `@task-executor [your request]` to route explicitly to the task execution specialist.
+
+6. **Communication routing:** Say `@communicator [your request]` to route explicitly to the stakeholder messaging specialist.
+
+7. **Decision support routing:** Say `@decision-support [your request]` to route explicitly to the option comparison and recommendation specialist.
+
+8. **Quick reference:** If you need project planning templates, risk registers, meeting agendas, or status reports, the project-manager agent will guide you through the right template from [Planner/PLANNER.md](Planner/PLANNER.md).
 
 ---
 
